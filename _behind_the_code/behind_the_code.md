@@ -77,6 +77,43 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:active
 
 <img src="img/specify_calc.jpg" alt="drawing" width="600"/>
 
-## 
+## 032-The box model properties
 
+<img src="img/short_padding.jpg" alt="drawing" width="600"/>
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-width
+
+<img src="img/short_border.jpg" alt="drawing" width="600"/>
+
+## 033-Box sizing and the box model fix
+
+Разница в вычислении размера контента:
+
+<img src="img/box-sizing.jpg" alt="drawing" width="600"/>
+
+https://codepen.io/christinatruong/pen/bGxvOeG
+
+`border-box` не изменяет размеры элементов, в отличие от `content-box`.  
+
+Исправление коробочной модели:  
+
+```css
+    /*
+    https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+    */
+
+    html {
+    box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+```
+
+## 034-Inline block and display
+
+https://codepen.io/christinatruong/pen/xxaYNLK
+
+## 
 
