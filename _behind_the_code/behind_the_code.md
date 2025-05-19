@@ -1,5 +1,6 @@
-Linkedin CSS Essential Training 08-2023
+# Linkedin CSS Essential Training 08-2023
 
+CSS Essential Training (2023)  
 https://codepen.io/collection/YyadbL
 
 ## Links
@@ -67,6 +68,7 @@ https://www.webfx.com/web-design/hex-to-rgb/
 
 ## 027-Pseudo classes and pseudo elements
 
+02_13 Pseudo-classes and pseudo-elements  
 https://codepen.io/christinatruong/pen/jOeyPPR
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/:active
@@ -91,6 +93,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/border-width
 
 <img src="img/box-sizing.jpg" alt="drawing" width="600"/>
 
+03_03 Box-sizing  
 https://codepen.io/christinatruong/pen/bGxvOeG
 
 `border-box` не изменяет размеры элементов, в отличие от `content-box`.  
@@ -113,7 +116,18 @@ https://codepen.io/christinatruong/pen/bGxvOeG
 
 ## 034-Inline block and display
 
+03_04 Inline, block and display  
 https://codepen.io/christinatruong/pen/xxaYNLK
 
-## 
+## 036-Debugging with developer tools
 
+Рекомендуемый курс:
+
+> Workflow Tools for Web Developers
+
+## 037-Managing box model quirks
+
+03_07 Box model quirks   
+https://codepen.io/christinatruong/pen/QWVmjZW
+
+## 

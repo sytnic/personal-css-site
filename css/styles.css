@@ -20,8 +20,13 @@ html {
   box-sizing: inherit;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   background: #f6f6f6; 
+  margin: 0;
 }
 
 /* links */
@@ -52,7 +57,7 @@ footer a:hover {
   background-size: cover;
 }
 .home .content-wrapper {
-  background: rgb(255 255 255 / 0.5);
+  background: rgb(255 255 255 / 0.9);
 }
 
 /* RESUME
