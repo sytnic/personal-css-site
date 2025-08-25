@@ -130,4 +130,53 @@ https://codepen.io/christinatruong/pen/xxaYNLK
 03_07 Box model quirks   
 https://codepen.io/christinatruong/pen/QWVmjZW
 
-## 
+## 044-Layouts with the float property
+
+04_02 Floats
+
+https://codepen.io/christinatruong/pen/JjaZJeK
+
+## 045-Clearing floats
+
+В плавающих элементах часто получалось, что контент выходил за пределы отведённого размера элемента. Чтобы избежать этого есть несколько способов.  
+
+Первый способ: overflow 
+
+overflow: hidden; - скрывает часть контента, который вышел за пределы элемента.  
+overflow: auto; - появляется полоса прокрутки, когда контент вышел за пределы элемента.
+
+```html
+    <div class="parent">
+        <div class="floated">floated element</div>
+        <div class="floated">floated element</div>
+    </div>
+
+    .floated {
+        float: left;
+    }
+
+    .parent {
+        overflow: hidden;
+        /* OR */
+        overflow: auto;
+    }
+
+```
+
+Способ Clearfix Hack. Устарел. В основном требовался из-за Internet Explorer.
+
+Самый современный способ: display. Заставляет контент полностью входить в контейнер, не выходя за его пределы. Видимо, повторяет поведение flex и grid.  
+
+```html
+    .parent {
+        display: flow-root;
+    }
+
+    <div class="parent">
+        <p>floated element</p>
+        <p>floated element</p>
+    </div>
+
+```
+
+##
